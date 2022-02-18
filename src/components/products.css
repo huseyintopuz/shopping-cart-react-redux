@@ -1,0 +1,46 @@
+.book-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+}
+.book-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.book-list-map {
+    display: flex;
+    width: 17.8rem;
+    margin: auto;
+    border: 1px solid rgba(192,192,192,0.5);
+    margin-bottom: 0.6rem;
+    padding: 0.4rem;
+}
+.book-list-map img {
+    width: 6rem;
+    cursor: pointer;
+}
+.book-list-map img:hover {
+    width: 10rem;
+}
+.book-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+.button-group {
+    display: flex;
+}
+.book-name button {
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.button button {
+    width: 8rem;
+    padding: 0 !important;
+   
+}
