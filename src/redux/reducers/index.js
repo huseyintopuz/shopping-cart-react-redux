@@ -1,8 +1,10 @@
 // import { combineReducers } from "redux";
-// import {bookReducer} from "./bookReducer"
+// import {bookReducer, counterReducer} from "./bookReducer"
 
 // const reducers = combineReducers({
-//     counter: bookReducer
+//     book: bookReducer,
+//     counter: counterReducer,
+    
 // })
 
 // export default reducers;

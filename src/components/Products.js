@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import './products.css'
 
 const Products = (props) => {
-  
+
   return (
     <div>
       <div className='book-list'>
@@ -21,8 +21,12 @@ const Products = (props) => {
               <h4>{book.name}</h4>
               <p>{book.author}</p>
               <p>₺{book.price}</p>
-              <div className='button'>
-                <Button variant="contained" onClick={() => props.addCart(book)}>Sepete Ekle</Button>
+              <div className='button-group'>
+                <button>+</button>
+                <div className='button'>
+                  <Button variant="contained" onClick={() => props.addCart(book)}>Sepete Ekle</Button>
+                </div>
+                <button>-</button>
               </div>
             </div>
           </div>
